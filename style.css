@@ -1,0 +1,23 @@
+div {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 10px solid green;
+}
+
+.com-border-box {
+  background-color: aquamarine;
+  box-sizing: border-box;
+  /* 'box-sizing: border-box' utilizado para ignorar a adição de paddings e borders no elemento, forçando a ter o tamanho que definimos na div */
+}
+.sem-border-box {
+  background-color: aliceblue;
+}
+
+/* O resultado final da largura sempre serão acrescidos dos paddings = esquerdo + direito e borders = esquerda + direita = largura total do elemento  
+100px + 10 + 10 + 10 + 10 (paddings e borders aplicados na div) = 140
+*/
+
+/* O resultado final da altura sempre serão acrescidos dos paddings = superior + inferior e borders = superior + inferior = altura total do elemento  
+100px + 10 + 10 + 10 + 10 (paddings e borders aplicados na div) = 140
+*/
